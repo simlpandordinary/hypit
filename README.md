@@ -18,88 +18,89 @@ Direct and produce videos with Hypit, primarily through generated media and auth
 
 ```
 ├── LICENSE
+├── NOTICE.md
 ├── README.upstream.md
 ├── SKILL.md
 ├── references/
-├── production/
-├── audio-clips.md
-├── authoring.md
-├── browser-capture.md
-├── builds.md
-├── caption-authoring.md
-├── caption-presentation.md
-├── component-design.md
-├── component-sharing.md
-├── component-visuals.md
-├── fonts-and-text.md
-├── image-operations.md
-├── index.md
-├── media.md
-├── prompt-kits.md
-├── rendering.md
-├── review.md
-├── runs.md
-├── script-syntax.md
-├── snapshots.md
-├── source-syntax.md
-├── spatial.md
-├── studio-companions.md
-├── studio.md
-├── system.md
-├── timeline.md
-├── timing.md
-├── track-authoring.md
-├── tracks.md
-├── video-downloads.md
-├── visual-clips.md
-├── vocabulary.md
-└── examples/
-├── detail.svrun
-├── direction.svs
-├── look.svs
-├── material.svrun
-├── production.svml
-├── production.svrun
-└── visuals.ts
-├── playbooks/
-├── index.md
-├── formats/
-├── narration-led-demo.md
-├── presenter-led-explainer.md
-├── ranking-listicle.md
-├── short-drama.md
-├── street-interview.md
-├── talking-head.md
-└── two-person-podcast.md
-└── craft/
-├── b-roll.md
-├── caption-tracking.md
-├── captions.md
-├── generated-dependencies.md
-├── graphic-compositions.md
-├── image-direction.md
-├── motion-graphics.md
-├── screen-demonstrations.md
-├── sound-mix.md
-├── video-direction.md
-├── voice-and-performance.md
-├── voice-direction.md
-└── examples/
-├── conversation-images.md
-└── image-direction.md
-├── environment/
-├── distribution.md
-├── local-tools.md
-├── model-and-provider.md
-└── profile.md
-└── creation/
-├── brief.md
-├── project-files.md
-├── reference-video.md
-├── script-and-time.md
-└── transformations.md
+│   ├── production/
+│   │   ├── audio-clips.md
+│   │   ├── authoring.md
+│   │   ├── browser-capture.md
+│   │   ├── builds.md
+│   │   ├── caption-authoring.md
+│   │   ├── caption-presentation.md
+│   │   ├── component-design.md
+│   │   ├── component-sharing.md
+│   │   ├── component-visuals.md
+│   │   ├── fonts-and-text.md
+│   │   ├── image-operations.md
+│   │   ├── index.md
+│   │   ├── media.md
+│   │   ├── prompt-kits.md
+│   │   ├── rendering.md
+│   │   ├── review.md
+│   │   ├── runs.md
+│   │   ├── script-syntax.md
+│   │   ├── snapshots.md
+│   │   ├── source-syntax.md
+│   │   ├── spatial.md
+│   │   ├── studio-companions.md
+│   │   ├── studio.md
+│   │   ├── system.md
+│   │   ├── timeline.md
+│   │   ├── timing.md
+│   │   ├── track-authoring.md
+│   │   ├── tracks.md
+│   │   ├── video-downloads.md
+│   │   ├── visual-clips.md
+│   │   ├── vocabulary.md
+│   │   └── examples/
+│   │       ├── detail.svrun
+│   │       ├── direction.svs
+│   │       ├── look.svs
+│   │       ├── material.svrun
+│   │       ├── production.svml
+│   │       ├── production.svrun
+│   │       └── visuals.ts
+│   ├── playbooks/
+│   │   ├── index.md
+│   │   ├── formats/
+│   │   │   ├── narration-led-demo.md
+│   │   │   ├── presenter-led-explainer.md
+│   │   │   ├── ranking-listicle.md
+│   │   │   ├── short-drama.md
+│   │   │   ├── street-interview.md
+│   │   │   ├── talking-head.md
+│   │   │   └── two-person-podcast.md
+│   │   └── craft/
+│   │       ├── b-roll.md
+│   │       ├── caption-tracking.md
+│   │       ├── captions.md
+│   │       ├── generated-dependencies.md
+│   │       ├── graphic-compositions.md
+│   │       ├── image-direction.md
+│   │       ├── motion-graphics.md
+│   │       ├── screen-demonstrations.md
+│   │       ├── sound-mix.md
+│   │       ├── video-direction.md
+│   │       ├── voice-and-performance.md
+│   │       ├── voice-direction.md
+│   │       └── examples/
+│   │           ├── conversation-images.md
+│   │           └── image-direction.md
+│   ├── environment/
+│   │   ├── distribution.md
+│   │   ├── local-tools.md
+│   │   ├── model-and-provider.md
+│   │   └── profile.md
+│   └── creation/
+│       ├── brief.md
+│       ├── project-files.md
+│       ├── reference-video.md
+│       ├── script-and-time.md
+│       └── transformations.md
 └── agents/
-└── openai.yaml
+    └── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
